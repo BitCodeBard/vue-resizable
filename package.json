@@ -1,7 +1,14 @@
 {
   "name": "vue-resizable",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "this is a vue resizable module",
+  "main": "../src/components/install.js",
+  "keywords": [
+    "resizable",
+    "vue"
+  ],
+  "license": "ISC",
+  "author": "chunfeng ma",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -9,6 +16,8 @@
   },
   "dependencies": {
     "core-js": "^3.4.3",
+    "jquery": "^3.4.1",
+    "jquery-ui": "^1.12.1",
     "vue": "^2.6.10"
   },
   "devDependencies": {
